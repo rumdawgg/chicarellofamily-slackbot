@@ -2,5 +2,6 @@
   "hubot-business-cat",
   "hubot-google-images",
   "hubot-shipit",
-  "hubot-redis-brain"
+  "hubot-redis-brain",
+  "hubot-emoji"
 ]
