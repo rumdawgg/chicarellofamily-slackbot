@@ -1,13 +1,3 @@
 [
-  "hubot-blog-reminders",
-  "hubot-branch-name",
-  "hubot-chicken-dance",
-  "hubot-cool-ascii-faces",
-  "hubot-cron",
-  "hubot-frinkiac",
-  "hubot-garble",
-  "hubot-google-images",
-  "hubot-retro",
-  "hubot-steal",
-  "hubot-yolo"
+  "hubot-google-images"
 ]
