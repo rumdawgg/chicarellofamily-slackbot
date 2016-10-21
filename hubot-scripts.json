@@ -1,11 +1,1 @@
-[
-  "redis-brain.coffee",
-  "script.coffee",
-  "shipit.coffee",
-  "applause.coffee",
-  "mtg.coffee",
-  "xkcd.coffee",
-  "kittens.coffee",
-  "wordnik.coffee",
-  "weather.coffee"
-]
+[]
