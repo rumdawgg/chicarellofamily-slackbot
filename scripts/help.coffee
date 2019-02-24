@@ -14,10 +14,8 @@
 helpContents = (name, commands) ->
 
   """
-<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8">
   <title>#{name} Help</title>
   <style type="text/css">
     body {
@@ -53,9 +51,9 @@ helpContents = (name, commands) ->
   """
 
 module.exports = (robot) ->
-  robot.respond /help\s*(.*)?$/i, (msg) ->
+  robot.respond /(help|hilfe)\s*(.*)?$/i, (msg) ->
     cmds = robot.helpCommands()
-    filter = msg.match[1]
+    filter = msg.match[2]
 
     if filter
       cmds = cmds.filter (cmd) ->
@@ -73,7 +71,7 @@ module.exports = (robot) ->
 
     msg.send emit
 
-  robot.router.get "/#{robot.name}/help", (req, res) ->
+  robot.router.get "/hubot/help", (req, res) ->
     cmds = robot.helpCommands().map (cmd) ->
       cmd.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 
