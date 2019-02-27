@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-business-cat",
-  "hubot-darksky"
+  "hubot-darksky",
+  "hubot-calm-down"
 ]
